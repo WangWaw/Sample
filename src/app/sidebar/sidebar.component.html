@@ -1,0 +1,24 @@
+<nav>
+  <ul>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl == '/'">
+        <i class="material-icons">supervised_user_circle</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+        <i class="material-icons">message</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="settings" [class.activated]="currentUrl == '/settings'">
+        <i class="material-icons">settings</i>
+      </a>
+    </li>
+    <li>
+        <a routerLink="tutorial" [class.activated]="currentUrl == '/tutorial'">
+          <i class="material-icons">library_books</i>
+        </a>
+      </li>
+  </ul>
+</nav>
